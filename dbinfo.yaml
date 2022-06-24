@@ -1,0 +1,7 @@
+# Database Information
+"host": "terraform-20211210005958267700000001.ctmnlik6gqgd.us-east-1.rds.amazonaws.com"
+"user": "muffinperson"
+"port": 5432
+"sslmode": "disable"
+"database": "bakerydev"
+"password": "drurylane"
