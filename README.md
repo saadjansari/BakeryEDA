@@ -7,18 +7,20 @@ Getting Started
 Clone project from git repository
 `git clone `
 
-Setup conda environment using the provided requirements.txt file
+Setup virtual environment using the provided requirements.txt file
 
-`conda create -n BakeryEDA python=3.9`
-`conda activate BakeryEDA`
-`conda install pip`
-`pip install -r requirements.txt`
+```
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+```
 
 Run project using
 `main.py`
 
 Alternatively, to produce an interactive dashboard, run
 `streamlit run app.py`
+Note: after installing dependencies, deactivate and reactivate the virtual environment for streamlit to work.
 
 Project Organization
 ------------

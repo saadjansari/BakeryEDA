@@ -17,6 +17,7 @@ logging.basicConfig(
 )
 
 # Initialize dashboard
+st.set_page_config(layout="wide")
 st.title("Bakery Coupon Effectiveness Dashboard")
 st.subheader("Introduction")
 st.markdown(

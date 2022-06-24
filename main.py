@@ -57,6 +57,7 @@ promotion_grouped["CouponUsePercentage"] = promotion_grouped[
 ].round(2)
 
 # Visualizations
+logging.info('Making visualizations...')
 # Create directory if it doesn't exist
 if not os.path.exists("images"):
     os.mkdir("images")
